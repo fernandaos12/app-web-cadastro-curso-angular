@@ -1,0 +1,30 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.topicos {
+width: 100%;
+height: auto;
+background: #374957;
+color: rgba(255, 255, 255, 0.6) !important;
+padding: 10px;
+font-size:12px;
+font-family: 'Montserrat', sans-serif;
+}
+.topicos h6 {
+color: #fff;
+}
+.topicos li {
+list-style: none;
+line-height: 3;
+}
+.rodape {
+background: #ddd;
+font-family: 'Montserrat', sans-serif;
+font-size:10px;
+height: 5vh;
+}
+.rodape p {
+padding-top: 6px;
+
+}

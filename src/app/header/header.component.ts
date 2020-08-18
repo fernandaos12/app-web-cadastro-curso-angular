@@ -1,0 +1,24 @@
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
+
+@Component({
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
+})
+export class HeaderComponent implements OnInit {
+  urlcursos: string = "/cursos";
+  urlplanos: string = "/planos";
+  urlLogo: any ="https://1.bp.blogspot.com/-CpOVQnk_nE0/WDbFz6J2JfI/AAAAAAAAGZk/SZKGIqr1TZgNZiMBoHKnh--r9xDV5RMkACLcB/s1600/angularjs-development-services.png";
+
+  formLogin;
+  constructor(private fb: FormBuilder) { }
+
+  ngOnInit(): void {
+    console.log('Component app-header inciado...');
+    this.formLogin = this.fb.group({
+      email: ['']
+    });
+  }
+
+}
