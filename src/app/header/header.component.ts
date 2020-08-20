@@ -1,5 +1,7 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
+
 
 @Component({
   selector: 'app-header',
@@ -11,14 +13,10 @@ export class HeaderComponent implements OnInit {
   urlplanos: string = "/planos";
   urlLogo: any ="https://1.bp.blogspot.com/-CpOVQnk_nE0/WDbFz6J2JfI/AAAAAAAAGZk/SZKGIqr1TZgNZiMBoHKnh--r9xDV5RMkACLcB/s1600/angularjs-development-services.png";
 
-  formLogin;
-  constructor(private fb: FormBuilder) { }
+  //formLogin;
+  clicklogin;
+  constructor( ) { }
 
-  ngOnInit(): void {
-    console.log('Component app-header inciado...');
-    this.formLogin = this.fb.group({
-      email: ['']
-    });
-  }
+  ngOnInit(): void {}
 
 }

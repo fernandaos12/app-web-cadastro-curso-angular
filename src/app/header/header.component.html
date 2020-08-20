@@ -9,22 +9,13 @@
             </ul>
         </div>
         <div class="col-xs-12 col-md-4">
-            <form [formGroup]="formLogin">
+ 
                 <div class="form-row align-items-center">
+                  
                     <div class="col-auto my-1">
-                        <div class="form-check">
-                            <label class="form-check-label" for="autoSizingCheck2">
-                                <b>Acesse</b> o portal
-                            </label>
-                            <input type="text" class="form-control" id="inlineFormInputName"
-                                placeholder="Digite seu Email">
-                        </div>
-                    </div>
-                    <div class="col-auto my-1">
-                        <button type="submit" class="btn btn-primary acessar-conta">Acessar</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block acessar-conta" [routerLink]="['/login']">Acessar o portal</button>
                     </div>
                 </div>
-            </form>
         </div>
     </div>
 </div>

@@ -47,6 +47,7 @@ top: 10px;
 background-color:#fba707 ;
 border: 0;
 color: #374957;
+margin-left: 99px;
 }
  ::ng-deep button.acessar-conta:hover{
     color:#374957!important;

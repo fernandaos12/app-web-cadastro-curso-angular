@@ -1,25 +1,30 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 
 .box-cadastro {
 margin: 30px;
 padding: 30px;
+font-family: 'Montserrat', sans-serif;
 }
 .cadastro {
 padding: 10px;
 border: none;
-border-bottom: 2px solid #ddd;
+border-bottom: 2px solid #374957;
 border-radius: 0;
 outline: none;
 height: 50px;
+font-family: 'Montserrat', sans-serif;
 }
 .btn-cadastro {
 width: 30%;
 display: block;
 margin: 0 auto;
 padding: 10px;
-background-color: #dcbc81;
-font-weight: bold;
+background-color: #fba707;
+font-weight:bold;
+color:#374957;
+font-family: 'Montserrat', sans-serif;
 }
